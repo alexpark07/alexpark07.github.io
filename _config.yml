@@ -1,22 +1,2 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
-
-# Setup
-title:               Alexlabs
-tagline:             ' - log'
-description:         'Writes everything casually'
-url:                 http://gh.alexlabs.org
-baseurl:             ''
-paginate:            5
-
-# About/contact
-author:
-  name:              Alex Park
-  url:               https://twitter.com/saintlinu
-  email:             sl@alexlabs.org
-
-# Custom vars
-version:             0.0.1
+markdown: rdiscount
+highlighter: pygments
